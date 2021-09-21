@@ -1,0 +1,48 @@
+article{
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+input[type=number]{
+    display: block;
+    border: 2px solid rgb(214, 211, 211);
+    border-radius: 4px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 465px;
+}
+
+.ingrese_num{
+    padding-right: 150px;
+    padding-top: 10px;
+}
+
+input[type=button], input[type=reset]{
+    color: rgb(126, 121, 121);
+    padding: 16px 32px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+
+.operaciones{
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(161, 159, 159);
+    border: 1px solid rgb(214, 211, 211);;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
+
+article{
+    width: 88%;
+}
+
+
+
+
+

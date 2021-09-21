@@ -1,0 +1,30 @@
+table, td, th {  
+    border: 1px solid rgb(216, 208, 207);
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  td{
+      text-align: center;
+  }
+
+  aside{
+      padding-left: 30px;
+  }
+
+  img{
+      padding-top: 70px;
+  }
+  article{
+      padding-left: 50px;
+      width: 88%;
+  }

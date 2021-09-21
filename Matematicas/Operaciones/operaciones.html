@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende Matematicas</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="operaciones.css">
+    <script src="./operacione.js" ></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Suma, Resta, Multiplicación y División</h1>
+    </header>
+
+    <nav>
+        <ul>
+
+            <a href="../index.html">
+                <li>Inicio</li>
+            </a>
+            <a href="../Descripcion/descripcion.html">
+                <li>Descripcion</li>
+            </a>
+            <a href="./operaciones.html">
+                <li>Operaciones</li>
+            </a>
+
+        </ul>
+    </nav>
+
+    <div class="clearfix"></div>
+
+    <article>
+        <div class="formulario">
+            <form >
+                <input type="number" name="inumero1" id="numero1" placeholder="Ingrese un Numero"></br>
+                <input type="number" name="inumero2" id="numero2" placeholder="Ingrese Otro Numero"></br>
+                <div class="operaciones">
+                    <select class="operacion" >
+                      <option disabled selected>Seleccione una Operacion</option>
+                      <option value="suma">Suma</option>
+                      <option value="resta">Resta</option>
+                      <option value="multiplicación">Multiplicación</option>
+                      <option value="división">División</option>
+                    </select>
+                </div>
+                <input type="reset" value="Limpiar">
+                <input type="button" onclick="operaciones()" value="Aceptar" >
+      </form>
+        </div> 
+    </article>
+
+    <div class="clearfix"></div>
+
+    <footer>
+        <p>Andres Yaruro WEB &copy; 2021</p>
+    </footer>
+
+</body>
+
+</html>
